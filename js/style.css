@@ -165,7 +165,7 @@ nav {
 
 
 /*RESPONSIVE*/
-@media (max-width: 1440px) {
+@media (max-wdth: 1440px) {
     .seccion1-container {
         display: flex;
         justify-content: space-evenly;
