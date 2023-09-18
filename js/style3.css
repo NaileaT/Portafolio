@@ -1,0 +1,118 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    background-color: #F5F5F5;
+}
+
+.experiencia-seccion-titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #464646;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700px;
+    font-size:45;
+}
+
+.experiencia-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem 3rem;
+    gap: 1rem;
+}
+
+.experiencia-box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experiencia-titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    color: #464646;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.experiencia-texto {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    color: #464646;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.experiencia__botao__repo {
+    margin: 0.5rem;
+    border: 1px solid;
+    border-color: #B6F5A5;
+    color: #16a085;
+    font-size: 0.8rem;
+    width: 90px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.experiencia__botao--demo {
+    margin: 0.5rem;
+    border: 1px solid;
+    border-color: #B6F5A5;
+    background-color: #B6F5A5;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 90px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.experiencia-imagen {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+    .experiencia-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 5rem 1rem;
+        gap: 2rem;
+    }
+
+    .experiencia-imagen {
+        width: 60%;
+    }
+}
+
+@media (max-width: 414px) {
+    .experience {
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F5F5;
+    }
+
+    .experiencia-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experiencia-box img {
+        width: 300px;
+    }
+    .experiencia-box video {
+        width: 300px;
+    }
+
+    .experiencia-descripcion {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
